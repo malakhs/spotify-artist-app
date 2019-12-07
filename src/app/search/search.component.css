@@ -1,0 +1,16 @@
+
+input[type="text"]::placeholder {  
+  text-align: center; 
+  color: black
+} 
+.fa-lightgray {
+    color: lightgray !important;
+  }
+  .fa-black {
+    color: black !important;
+  }
+  @media (min-width: 100px) and (max-width: 700px) {
+    .card-deck .card {
+        left: 25%;
+     }
+  }

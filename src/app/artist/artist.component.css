@@ -1,0 +1,39 @@
+.artist-header{
+    padding-bottom: 20px;
+    padding-top: 20px;
+   
+}
+
+.artist-thumb{
+    width:  80px;
+    height: auto;
+    float:  left;
+    margin-right: 10px;
+}
+
+.artist-albums .well{
+    margin-bottom: 20px;
+    overflow: auto;
+    min-height: 400px;
+}
+
+.card-deck {
+    margin: 0 -15px;
+    justify-content: space-between;
+  }
+  
+  .card-deck .card {
+    margin: 0 0 1rem;
+  }
+  
+  @media (min-width: 100px) and (max-width: 700px) {
+    .card-deck .card {
+        left: 25%;
+    }
+    .artist-header>h1{
+       text-align: center;
+    }
+    .artist-header>p{
+        text-align: center;
+    }
+  }
