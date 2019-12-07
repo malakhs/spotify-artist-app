@@ -7,7 +7,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ### Get Spotify API client ID/secret
 - Create an account on spotify
 - Create new app or select an existing one
-- Set baseUrl e.g. `http://localhost:4200/` in white-listed address
+- Set baseUrl e.g. `http://localhost:4200/authorized` in white-listed address
 
 ### Configuration
 - Set Client ID and Client Secret in `global.ts`
