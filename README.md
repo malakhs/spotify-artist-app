@@ -2,6 +2,16 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.2.
 
+## Credentials
+
+### Get Spotify API client ID/secret
+- Create an account on spotify
+- Create new app or select an existing one
+- Set baseUrl e.g. `http://localhost:4200/` in white-listed address
+
+### Configuration
+- Set Client ID and Client Secret in `global.ts`
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
