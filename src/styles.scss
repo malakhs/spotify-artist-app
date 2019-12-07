@@ -1,0 +1,43 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+.p-l-25 {padding-left:25px;}
+.p-r-25 {padding-right:25px;}
+.p-10{padding: 10px;}
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+  }
+  .relativecenter{
+    position:relative;
+    left: 25%;
+
+  }
+
+
+.input-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.input-wrapper:before {
+  content: "\f002";
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  color: lightgray;
+  font-size: 18px;
+  padding-right: 0.5em;
+  position: absolute;
+  top: 6px;
+  right: 0;
+}
+
+input {
+width: 100%;
+padding-right: 30px;
+}
